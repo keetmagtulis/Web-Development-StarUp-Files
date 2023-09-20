@@ -1,0 +1,47 @@
+9/20/2023
+Introduction to HTML CSS and JS 
+
+HTML- Hypertext Markup Language
+
+We use HTML to define the structure or building block our web pages 
+
+CSS - Casscading Style Sheet 
+
+
+Note: index.html is used as the homepage of the HTML
+
+REMEMBER TO ALWAYS USE inspect element in the browser
+
+<title> - refers to the content that appears in the browser 
+
+Use Live server to view the current HTML project
+URL 127.0.0.1:5500  - This URL represents the local computer  or the current machine 
+The port number 5500 - is which our webserver is listening (the web server is waiting for the http request on this port)
+
+image element - <img src="" alt="">
+
+In this function there are 2 attributes 
+
+source(src) is where you determine the path of the image
+
+alternative text (alt) is used when the image can't be displayed and instead displaying a text 
+
+style element - <stlye></style>
+
+This is where we write our css declerations. Use a semicollon to use mulitple css declerations.
+
+Examples of CSS declerations - 
+
+width - used to adjust img size 
+border-raduis - used to adjust borders of the images
+
+TIPS: If you use a value for the border radius half of the width you will get a round image. 
+
+CLASS (Classification) - class attribute is used to specify an element
+
+Example <p class="main"></p>
+
+call diss element in CSS as 
+ .main {
+    font-weight: bold; 
+ }
