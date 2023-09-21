@@ -45,3 +45,71 @@ call diss element in CSS as
  .main {
     font-weight: bold; 
  }
+
+ BASIC HTML BOILERPLATE (Basic HTML Template) 
+
+Type ! and press tab 
+
+HEAD Section (Meta Elements)
+
+<head></head>
+
+Head section has meta elements 
+
+Examples: 
+<meta charset="UTF-8">
+character set - most of the character set we use this days is UTF-8 (it can display almost all characters in the world) 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+viewport - it configures the viewport it is the visible area of the webpage. We need this element to make our webpage look good on all devices. 
+
+ <meta name="keywords" content="Ramen, noodles">
+ keywords - is used to define the webpage.
+
+ <meta name="description" content="What you see here is the description that is displayed when you search for the webpage">
+ description- it displays the description when you search the webpage on search engines. 
+
+ META Elements - we can give information about the webpage. 
+
+ Emphasis (em) element - Gives emphasis to the text 
+
+        <p> I love <em>Ramen</em></p>
+       <p> I love <strong>Ramen</strong></p>
+       <p> I love <i>Ramen</i></p>
+
+These elements are deprecated because styling should be done in CSS 
+
+HTML has 6 Headings 
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+h1 as the most important heading 
+ 
+ Every webpage must have only 1 h1 element as it tells the search engines what is the webpage all about 
+ having mulitple h1 elements will confuse the search engines. 
+ If you are using h1 the next heading element must be h2 you should not skip 
+
+ Entities 
+
+ All HTML Entities must be stored in between &;
+
+Example
+
+
+<p> I love &lt;HTML&gt;! </p>
+
+lt - less than sign 
+gt - greater than sign 
+copy - copy right symbol 
+&nbsp - non breaking space 
+
+ABOUT function 
+
+<a href="about.html">About Page</a>
+
+Declare an html file using a href command ang the path of the html file 
